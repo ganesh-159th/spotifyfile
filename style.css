@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+body{
+    background-color: blanchedalmond;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family:'IBM+Plex+Sans',sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type : none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width :38px ;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'IBM';
+    display: flex;
+    margin: 23px auto ;
+    width: 65%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('5.jpg.jpg');
+    
+
+
+}
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 9px;
+}
+.icons i {
+    cursor: pointer;
+}
+.songeItemContainer{
+    margin:  74px;
+}
+#myprogressBar{
+    
+    width: 90vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songeItem{
+height: 45px;
+display: flex;
+background-color: white;
+
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+.songeItem img{
+    width:43px;
+    margin: 0 23px;
+    border-radius:  44px;
+    height: 44px
+
+}
+.timestamp{
+    margin: 0 23px;
+    
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: IBM;
+}
+.songInfo img{
+    opacity: 0;
+    transition:opacity 0.1s ease-in;
+  
+}
+
+
